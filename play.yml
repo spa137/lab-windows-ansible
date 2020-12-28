@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+  - name: install via Chocolatey
+    win_chocolatey:
+      name: opera
+      state: absent
